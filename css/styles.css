@@ -974,8 +974,8 @@ color:var(--primary-text-color)
 
 }
 
-.card-example:hover .text-card,
-.card-example:focus .text-card{
+.portfolio-shadow :hover .text-card,
+.portfolio-shadow :focus .text-card{
     transform: translateY(0);
 }
 
@@ -1060,8 +1060,13 @@ color:var(--primary-text-color)
     position: relative;
     display: block;
     margin-bottom: 10px;
-    
 }
+.modal-form-coment{
+     position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
 
 .form-input-comments:hover,
 .form-input-comments:focus{
