@@ -179,10 +179,10 @@ padding-bottom: 32px;
     bottom: 0;
     bottom: -1px;
 }
-/*  */
-/* .current-link {
+
+.current-link {
     color: var(--accent-color);
-} */
+}
 
 .group-item{
     list-style-type: none;
@@ -280,8 +280,8 @@ cursor: pointer;
 }
 
 .feature__background-icon {
-height: 120px;
-background-color: var(--secondary-light-bg); 
+    height: 120px;
+  background-color: var(--secondary-light-bg); 
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -635,7 +635,7 @@ text-decoration: none;
     color: #ffffff;
     margin-bottom: 20px;
 }
-/* .socials-link {
+.socials-link {
     width: 44px;
     height: 44px;
     display: flex;
@@ -643,7 +643,7 @@ text-decoration: none;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-} */
+}
 
 .footer-socials-icon {
     width: 20px;
@@ -655,7 +655,7 @@ text-decoration: none;
 }
 
 /* лого фут */
-/* 
+
 .footer .logo-position {
     display: block;
 margin-bottom: 20px;
@@ -685,7 +685,7 @@ margin-bottom: 9px;
 }
 .address-item.address{
 margin-bottom: 9px;
-} */
+}
 
 /* ----подписка футер---- */
 .footer-form-container{
@@ -703,7 +703,11 @@ color: #fff;
 line-height: 1.14;
 text-transform: uppercase;
 }
-
+.footer-button-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .button-subscribe{
     padding: 10px 16px;
     width: 200px;
@@ -783,7 +787,7 @@ box-shadow: 250 ms cubic-bezier(0.4, 0, 0.2, 1);
     color: var(--primary-background-color);
     border-radius: 4px;
     box-shadow: 0px 3px 1px rgb(0 0 0 / 10%),
-    0px 1px 2px rgb(0 0 0 / 8%),
+     0px 1px 2px rgb(0 0 0 / 8%),
     0px 2px 2px rgb(0 0 0 / 12%);
 }
 
